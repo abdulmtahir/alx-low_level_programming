@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *
+ * main - Prints out the sizes of data 
+ * this program is compiled on.
  * Return: Always 0 (success)
  */
 int main(void)
 {
-printf("Size of a char: %zu byte(s)\n",(unsigned long)  sizeof(char));
-printf("Size of n int: %zu byte(s)\n",(unsigned long)  sizeof(int));
-printf("Size of a long int: %zu byte(s)\n" ,(unsigned long)  sizeof(long int));
-printf("Size of a long long int: %zu byte(s)\n",(unsigned long)  sizeof(long long int));
-printf("Size of a float: %zu byte(s)\n",(unsigned long)  sizeof(float));
+printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(char));
+printf("Size of n int: %zu byte(s)\n", (unsigned long)sizeof(int));
+printf("Size of a long int: %zu byte(s)\n" ,(unsigned long)sizeof(long int));
+printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(long long int));
+printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(float));
 return (0);
 }
