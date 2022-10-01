@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -wall -pedantic -werror -wextra -c *.c create_static_lib.sh
+gcc -wall -pedantic -werror -wextra -c *.c liball.a 
 ar rc liball.a *.o 
